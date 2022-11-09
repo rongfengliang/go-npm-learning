@@ -1,3 +1,6 @@
 
 dist/
 node_modules
+bin
+*.log
+go-npm-learning

@@ -1,12 +1,12 @@
 {
   "name": "@dalongrong/go-npm-learning",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "main": "index.js",
   "repository": "https://github.com/rongfengliang/go-npm-learning.git",
   "author": "rong fengliang <1141591465@qq.com>",
   "license": "MIT",
   "dependencies": {
-    "go-npm": "^0.1.9"
+    "@dalongrong/mygo-npm": "^1.0.2"
   },
   "goBinary": {
     "name": "go-npm-learning",
@@ -14,9 +14,9 @@
     "url": "https://github.com/rongfengliang/go-npm-learning/releases/download/v{{version}}/go-npm-learning_{{version}}_{{platform}}_{{arch}}.tar.gz"
   },
   "scripts": {
-    "p":"yarn publish",
-    "postinstall": "go-npm install",
-    "preuninstall": "go-npm uninstall"
+    "p": "yarn publish",
+    "postinstall": "mygo-npm install",
+    "preuninstall": "mygo-npm uninstall"
   },
   "publishConfig": {
     "access": "public",
