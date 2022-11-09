@@ -7,5 +7,14 @@
   "license": "MIT",
   "dependencies": {
     "go-npm": "^0.1.9"
+  },
+  "goBinary": {
+    "name": "mygolangappcli",
+    "path": "./bin",
+    "url": "https://github.com/rongfengliang/go-npm-learning/releases/download/v{{version}}/go-npm-learning_{{platform}}-{{arch}}.tar.gz"
+  },
+  "scripts": {
+    "postinstall": "go-npm install",
+    "preuninstall": "go-npm uninstall"
   }
 }
