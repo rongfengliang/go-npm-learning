@@ -14,7 +14,12 @@
     "url": "https://github.com/rongfengliang/go-npm-learning/releases/download/v{{version}}/go-npm-learning_{{platform}}-{{arch}}.tar.gz"
   },
   "scripts": {
+    "p":"yarn publish",
     "postinstall": "go-npm install",
     "preuninstall": "go-npm uninstall"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.com"
   }
 }
