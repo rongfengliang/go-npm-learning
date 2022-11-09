@@ -1,6 +1,6 @@
 {
   "name": "@dalongrong/go-npm-learning",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "main": "index.js",
   "repository": "https://github.com/rongfengliang/go-npm-learning.git",
   "author": "rong fengliang <1141591465@qq.com>",
