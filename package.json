@@ -1,6 +1,6 @@
 {
   "name": "@dalongrong/go-npm-learning",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "main": "index.js",
   "repository": "https://github.com/rongfengliang/go-npm-learning.git",
   "author": "rong fengliang <1141591465@qq.com>",
@@ -11,7 +11,7 @@
   "goBinary": {
     "name": "mygolangappcli",
     "path": "./bin",
-    "url": "https://github.com/rongfengliang/go-npm-learning/releases/download/v{{version}}/go-npm-learning_{{platform}}-{{arch}}.tar.gz"
+    "url": "https://github.com/rongfengliang/go-npm-learning/releases/download/v{{version}}/go-npm-learning_{{version}}_{{platform}}_{{arch}}.tar.gz"
   },
   "scripts": {
     "p":"yarn publish",
