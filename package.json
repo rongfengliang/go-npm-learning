@@ -1,0 +1,11 @@
+{
+  "name": "@dalongrong/go-npm-learning",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/rongfengliang/go-npm-learning.git",
+  "author": "rong fengliang <1141591465@qq.com>",
+  "license": "MIT",
+  "dependencies": {
+    "go-npm": "^0.1.9"
+  }
+}
